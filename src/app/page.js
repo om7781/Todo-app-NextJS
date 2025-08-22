@@ -1,9 +1,16 @@
-import React from 'react'
+"use client";
+import React, { useEffect } from "react";
+import InputForm from "@/components/InputForm";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+    <section className="m-10">
+    <div><InputForm/></div>
+    </section>
+      
+    </>
+  );
+};
 
-export default page
+export default page;
